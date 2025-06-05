@@ -53,8 +53,8 @@ print(f"Test accuracy: {test_acc * 100:2f}%")
 
 # make prediction on test images
 predictions=model.predict(test_images)
-print(f"Prediction for the first test image: {np.argmax(predictions[0])}")
+print(f"Prediction for the first test image: {np.argmax(predictions[1])}")
 
-plt.imshow(test_images[0].reshape(28,28), cmap='gray')
-plt.title(f"Predicted Label: {predictions[0].argmax()}")
+plt.imshow(test_images[1].reshape(28,28), cmap='gray')
+plt.title(f"Predicted Label: {predictions[1].argmax()}")
 plt.show()
