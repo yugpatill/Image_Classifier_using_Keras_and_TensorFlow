@@ -41,7 +41,7 @@ cd image-classifier-tensorflow
 
 # Install dependencies
 pip install tensorflow matplotlib numpy
-
+```
 <img width="634" alt="Screenshot 2025-06-05 at 1 30 06 AM" src="https://github.com/user-attachments/assets/415bcd4c-f149-49d2-ad4c-e18cf97327f5" />
 <img width="635" alt="Screenshot 2025-06-05 at 1 24 25 AM" src="https://github.com/user-attachments/assets/38e6653a-9e8a-4d4e-8f54-b8a2114a71b4" />
 
